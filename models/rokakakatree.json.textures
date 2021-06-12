@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pack1",
+        "1": "pack1",
+        "2": "green"
+      },
+      "name": "default"
+    }
+  }
+}

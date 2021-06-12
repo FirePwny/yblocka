@@ -1,0 +1,7 @@
+{
+  "parent": "jojosblockyadventure:custom/rokakakafruit",
+  "textures": {
+    "0": "jojosblockyadventure:blocks/",
+    "particle": "jojosblockyadventure:items/bana"
+  }
+}

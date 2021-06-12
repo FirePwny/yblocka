@@ -1,0 +1,10 @@
+{
+  "parent": "jojosblockyadventure:custom/rokakakatree",
+  "textures": {
+    "all": "jojosblockyadventure:blocks/pack1",
+    "particle": "jojosblockyadventure:blocks/pack1",
+    "0": "jojosblockyadventure:blocks/pack1",
+    "1": "jojosblockyadventure:blocks/pack1",
+    "2": "jojosblockyadventure:blocks/green"
+  }
+}
