@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jojosblockyadventure:blocks/mysterious_ore2",
+    "particle": "jojosblockyadventure:blocks/mysterious_ore2"
+  }
+}

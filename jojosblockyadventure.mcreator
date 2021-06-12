@@ -1,0 +1,99 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MysteriousChunk",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysterious_chunk"
+    },
+    {
+      "name": "MysteriousOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysterious_ore"
+    },
+    {
+      "name": "MysteriousArrowhead",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mysterious_arrowhead"
+    },
+    {
+      "name": "MakeMysteriousArrow",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "make_mysterious_arrow"
+    },
+    {
+      "name": "MakeMysteriousArrow2",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "make_mysterious_arrow_2"
+    },
+    {
+      "name": "MakeMysteriousArrow3",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "make_mysterious_arrow_3"
+    },
+    {
+      "name": "MakeMysteriousArrow4",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "make_mysterious_arrow_4"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.jojosblockyadventure.mysterious_arrowhead": "Mysterious Arrowhead",
+      "item.jojosblockyadventure.mysterious_chunk": "Mysterious Chunk",
+      "block.jojosblockyadventure.mysterious_ore": "Mysterious Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "jojosblockyadventure",
+    "modName": "Jojo\u0027s Blocky Adventure",
+    "version": "1.0.0",
+    "author": "Spencer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.jojosblockyadventure",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

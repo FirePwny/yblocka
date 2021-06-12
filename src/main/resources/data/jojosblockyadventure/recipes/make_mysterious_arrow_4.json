@@ -1,0 +1,23 @@
+{
+  "group": "jojosblockyadventure",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3"
+  ],
+  "key": {
+    "0": {
+      "item": "jojosblockyadventure:mysterious_chunk"
+    },
+    "1": {
+      "item": "jojosblockyadventure:mysterious_chunk"
+    },
+    "3": {
+      "item": "jojosblockyadventure:mysterious_chunk"
+    }
+  },
+  "result": {
+    "item": "jojosblockyadventure:mysterious_arrowhead",
+    "count": 1
+  }
+}
