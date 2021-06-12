@@ -5,10 +5,10 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.jojosblockyadventure.itemgroup.YourBlockyAdventureItemGroup;
 import net.mcreator.jojosblockyadventure.JojosblockyadventureModElements;
 
 @JojosblockyadventureModElements.ModElement.Tag
@@ -25,7 +25,7 @@ public class MysteriousArrowheadItem extends JojosblockyadventureModElements.Mod
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(16).isImmuneToFire().rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(YourBlockyAdventureItemGroup.tab).maxStackSize(16).isImmuneToFire().rarity(Rarity.UNCOMMON));
 			setRegistryName("mysterious_arrowhead");
 		}
 

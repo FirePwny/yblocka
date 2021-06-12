@@ -26,7 +26,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.MaterialColor;
@@ -36,6 +35,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.jojosblockyadventure.itemgroup.YourBlockyAdventureItemGroup;
 import net.mcreator.jojosblockyadventure.item.MysteriousChunkItem;
 import net.mcreator.jojosblockyadventure.JojosblockyadventureModElements;
 
@@ -56,8 +56,8 @@ public class MysteriousOreBlock extends JojosblockyadventureModElements.ModEleme
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(YourBlockyAdventureItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

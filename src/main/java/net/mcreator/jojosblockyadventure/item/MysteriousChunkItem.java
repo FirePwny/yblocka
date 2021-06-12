@@ -8,11 +8,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.jojosblockyadventure.itemgroup.YourBlockyAdventureItemGroup;
 import net.mcreator.jojosblockyadventure.JojosblockyadventureModElements;
 
 import java.util.List;
@@ -31,7 +31,7 @@ public class MysteriousChunkItem extends JojosblockyadventureModElements.ModElem
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(YourBlockyAdventureItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("mysterious_chunk");
 		}
 
