@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 1,
+    "texture": "bana",
+    "customModelName": "speedowagon:default",
+    "name": "Speed Wagon Hat",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:YourBlockyAdventure"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 10.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:MysteriousArrowhead"
+    },
+    "bulletModel": "Modelzeppelihat_pog",
+    "customBulletModelTexture": "texture.png"
+  }
+}

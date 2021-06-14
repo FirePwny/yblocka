@@ -116,13 +116,13 @@
       "registry_name": "rokakaka_tree"
     },
     {
-      "name": "RokakakaFruitspawn",
+      "name": "RokakakaTreePlantRightClicked",
       "type": "procedure",
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rokakaka_fruitspawn",
+      "registry_name": "rokakaka_tree_plant_right_clicked",
       "metadata": {
         "dependencies": [
           {
@@ -143,6 +143,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "RokakakaTreePlantRightClicked2",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rokakaka_tree_plant_right_clicked_2",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RedStoneOfAja",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_stone_of_aja"
+    },
+    {
+      "name": "SpeedWagonHat",
+      "type": "gun",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "speed_wagon_hat"
     }
   ],
   "variable_elements": [],
@@ -152,14 +182,16 @@
       "itemGroup.tabyour_blocky_adventure": "Your Blocky Adventure",
       "item.jojosblockyadventure.rokakaka_fruit": "Rokakaka Fruit",
       "item.jojosblockyadventure.stone_fruit": "Stone Fruit",
-      "item.jojosblockyadventure.mysterious_arrowhead": "Mysterious Arrowhead",
+      "item.jojosblockyadventure.speed_wagon_hat": "Speed Wagon Hat",
       "item.jojosblockyadventure.zeppeli_boots": "Zeppeli Boots",
       "item.jojosblockyadventure.mysterious_chunk": "Mysterious Chunk",
-      "block.jojosblockyadventure.mysterious_ore": "Mysterious Ore",
-      "item.jojosblockyadventure.zeppeli_helmet": "Zeppeli Hat",
       "item.jojosblockyadventure.zeppeli_leggings": "Zeppeli Leggings",
+      "item.jojosblockyadventure.red_stone_of_aja": "Red Stone Of Aja",
       "item.jojosblockyadventure.zeppeli_chestplate": "Zeppeli Body",
-      "block.jojosblockyadventure.rokakaka_tree": "Rokakaka Tree"
+      "block.jojosblockyadventure.rokakaka_tree": "Rokakaka Tree",
+      "item.jojosblockyadventure.mysterious_arrowhead": "Mysterious Arrowhead",
+      "block.jojosblockyadventure.mysterious_ore": "Mysterious Ore",
+      "item.jojosblockyadventure.zeppeli_helmet": "Zeppeli Hat"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,9 @@
+{
+  "parent": "jojosblockyadventure:custom/speedowagon",
+  "textures": {
+    "2": "jojosblockyadventure:blocks/asd",
+    "3": "jojosblockyadventure:blocks/hat2",
+    "4": "jojosblockyadventure:blocks/hat3",
+    "particle": "jojosblockyadventure:items/bana"
+  }
+}

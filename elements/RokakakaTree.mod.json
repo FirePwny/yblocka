@@ -31,7 +31,7 @@
     "name": "Rokakaka Tree",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:YourBlockyAdventure"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -44,9 +44,9 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -60,10 +60,13 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "onRightClicked": {
+      "name": "RokakakaTreePlantRightClicked2"
+    }
   }
 }

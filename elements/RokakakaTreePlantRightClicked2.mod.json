@@ -1,0 +1,7 @@
+{
+  "_fv": 18,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Boolean\" id=\"DestroyBlock\">DestroyBlock</variable></variables><block type=\"event_trigger\" collapsed=\"true\" deletable=\"false\" x=\"51\" y=\"74\"><field name=\"trigger\">player_right_click_block</field></block></xml>"
+  }
+}
